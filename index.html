@@ -55,7 +55,9 @@
       </tr>
     </tbody>
   </table>
+    <br>
     <hr>
+    <br>
     <!-- Formularios -->
     <Form action="process.php" method="POST">
       <!-- div sirve para ubicar un contenido en un blo1que propio, de esta forma las celdas de texto aparece una abajo
@@ -79,6 +81,26 @@
           Email
         </label>
         <input type="email" name="email">
+      </div>
+      <br>
+      <div>
+        <label>
+          Message
+        </label>
+        <textarea name="message"> 
+        </textarea>
+      </div>  
+      <br>
+      <div>
+        <label>
+          Que Prefieres?
+        </label>
+        <select name="Que Prefieres?">
+          <option value="Cafe"> Cafe </option>
+          <option value="Coca"> Coca </option>
+          <option value="Agua"> Agua </option>
+          <option value="Chocolate"> Chocolate </option>
+        </select>
       </div>  
     </Form>
   </body>
