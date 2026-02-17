@@ -1,9 +1,12 @@
 body{
   background-color:#000000;
   color:white;
-  font-family: Arial, Helvetica
+  font-family: Arial, Helvetica;
+  font-size:28px;
 }
 
 h1{
   color:green;
+  font-size:14px;
+  font-weight:bold;
 }
